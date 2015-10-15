@@ -1,0 +1,27 @@
+            html, body {
+                height: 100%;
+            }
+
+            body {
+                margin: 40px;
+		width : 900px;
+                padding: 0;
+                display: table;
+                font-weight: 100;
+                font-family: 'Lato';
+            }
+
+            .container {
+                margin: 40px;
+                display: table-cell;
+                vertical-align: middle;
+            }
+
+            .content {
+                display: inline-block;
+            }
+
+            .title {
+                font-size: .5em;
+		text-align: center;
+            }
