@@ -3,10 +3,12 @@
             }
 
             body {
+		margin-left : 5em;
                 padding: 0;
                 display: table;
                 font-weight: 100;
                 font-family: 'Lato';
+		width : 85%;
             }
 
 	    nav {
