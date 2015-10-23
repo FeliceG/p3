@@ -7,6 +7,7 @@
 This website generates a user-requested number of lorem ipsum paragraphs, fake user names, email addresses, birhtdates, and biographies. 
 
 ##Demo
+http://screencast.com/t/VAIVKnQLFjO
 
 ##Details for teaching team
 No login required.
