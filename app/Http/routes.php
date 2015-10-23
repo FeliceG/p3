@@ -31,6 +31,3 @@ Route::get('/', function () {
 Route::post('/show/{users?}', 'FakerController@showFakedata');
 
 
-# Route::post('/', function () {
-#     $input = Input::all();
-# });

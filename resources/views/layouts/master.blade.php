@@ -11,13 +11,21 @@
 </head>
 
 <body>
+
+<div class="container">
+
     <header class="title">
 	<img src="/developer.png" alt="Developer's Best Friend" >
 	<br>
 	<p class="logo">Logo made by <a href="http://logotypemaker.com" title="Free Logo Maker">LogotypeMaker.com</a> | licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a></p>
     </header>
 
-<br>
+   <nav>
+        <ul>
+            <li><a href='/'>Home&#8212;Data Generator</a></li>
+        </ul>
+    </nav>
+
 <section>
         @yield('content')
 </section>
@@ -26,9 +34,13 @@
         @yield('user')
 </section>
 <br>
-<footer>
+
+
+<footer class="footer">
 	Felice Gardner &copy; {{ date('Y') }}
 </footer>
+
+</div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 

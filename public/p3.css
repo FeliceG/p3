@@ -3,25 +3,47 @@
             }
 
             body {
-                margin: 40px;
-		width : 900px;
+                margin: 5em;
+		width : 100%;
                 padding: 0;
                 display: table;
                 font-weight: 100;
                 font-family: 'Lato';
             }
 
+	    nav {
+		margin-left : -2em;
+		font-size : 1.25em;
+		}
+
+	    ul  {
+		list-style-type : none;
+		}
+
+	   nav ul li a {
+		color : 99CC33;
+		}
+
             .container {
-                margin: 40px;
                 display: table-cell;
                 vertical-align: middle;
+		width : 80%;
             }
 
-            .content {
+            section {
                 display: inline-block;
             }
 
+	    input[type="submit"] {
+		color : 99CC33;
+		}
             .title {
                 font-size: .5em;
+		color : 99CC33;
 		text-align: center;
             }
+	    .footer {
+		font-size: 1em;
+		color : 99CC33;
+		text-align : center;
+	    }
